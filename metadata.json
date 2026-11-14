@@ -1,0 +1,8 @@
+{
+  "name": "Packet Panic!",
+  "description": "Retro-modern dev arcade game where you pilot Pingy to route traffic, scale clusters, and defend SLA uptime across 5 distributed systems levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

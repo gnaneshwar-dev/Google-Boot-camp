@@ -1,0 +1,189 @@
+---
+name: Retro-Modern Dev Arcade
+colors:
+  surface: '#0f131d'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#b9cac4'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#83948f'
+  outline-variant: '#3a4a46'
+  surface-tint: '#00dfc1'
+  primary: '#d7fff3'
+  on-primary: '#00382f'
+  primary-container: '#00f5d4'
+  on-primary-container: '#006c5c'
+  inverse-primary: '#006b5b'
+  secondary: '#ffb1c5'
+  on-secondary: '#65002f'
+  secondary-container: '#e30071'
+  on-secondary-container: '#fffbff'
+  tertiary: '#fff5eb'
+  on-tertiary: '#422c00'
+  tertiary-container: '#ffd48b'
+  on-tertiary-container: '#7e5800'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#26fedc'
+  primary-fixed-dim: '#00dfc1'
+  on-primary-fixed: '#00201a'
+  on-primary-fixed-variant: '#005144'
+  secondary-fixed: '#ffd9e1'
+  secondary-fixed-dim: '#ffb1c5'
+  on-secondary-fixed: '#3f001b'
+  on-secondary-fixed-variant: '#8f0045'
+  tertiary-fixed: '#ffdea9'
+  tertiary-fixed-dim: '#ffba27'
+  on-tertiary-fixed: '#271900'
+  on-tertiary-fixed-variant: '#5e4100'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+typography:
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  code-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system channels a Retro-Modern Dev Arcade aesthetic. It merges high-energy arcade nostalgia with precision developer utility, evoking excitement, focus, and technical dominance. 
+
+### Brand Personality & Emotional Response
+- **Persona:** Energetic, precise, rebellious, and deeply technical.
+- **Emotional Response:** High-octane engagement balanced with absolute clarity. It should feel like stepping into a high-performance terminal built for speed and execution.
+
+### Design Style
+The visual language is a hybrid of **Retro / Vaporwave** and **Minimalism**: dark, immersive atmospheres anchored by crisp neon accents, high-contrast states, and razor-sharp structural layouts.
+
+## Colors
+
+The palette is engineered for low-light developer environments, utilizing deep midnight foundations contrasted with hyper-vibrant neon signals.
+
+- **Primary (`#00F5D4` - Neon Cyan):** Core interactive states, active links, and primary actions.
+- **Secondary (`#FF2A85` - Electric Magenta):** High-impact highlights, critical badges, and hero elements.
+- **Tertiary (`#FFB703` - Warning Amber):** Secondary alerts, performance warnings, and auxiliary indicators.
+- **Success (`#38B000`):** Build passes, operational statuses, and positive confirmations.
+- **Critical (`#EF233C`):** System failures, errors, and destructive actions.
+- **Neutral Base (`#0B0F19` - Deep Midnight):** Canvas background.
+- **Surface Elevation (`#141B2D`):** Card and container backgrounds.
+
+## Typography
+
+Typography balances clean geometric readability with dense, utilitarian monospace data streams. 
+
+### Scaling Guidelines
+- Headlines larger than 32px must scale down on viewports smaller than 768px to prevent wrapping anomalies.
+- Monospace tokens (`code-md`, `code-sm`) are strictly reserved for latency metrics, console logs, system outputs, and hexadecimal hash displays. Ensure these elements maintain rigid horizontal alignment.
+
+## Layout & Spacing
+
+The layout relies on a **12-column fluid grid** system optimized for high-density dashboard layouts, monitoring tools, and arcade-style telemetry views.
+
+### Breakpoints & Adaptability
+- **Mobile (< 768px):** Single-column reflow, stacked telemetry cards, persistent bottom navigation.
+- **Tablet (768px - 1200px):** 6-column collapsible sidebar layout, compact spacing rhythm.
+- **Desktop (LŒ
+NŠŠˆ[L‹XÛÛ[[ˆ^[œÚ]™HšY]ÈÚ]š^YÚYH[™[È[™›ZYÙ[˜[Ø[˜\Ë‚‚ˆÈÈÈš]B“XZ[Z[ˆHÝšXÝ˜\ÙHÜšY[š]XÜ›ÜÜÈ[Y[™ËX\™Ú[œË[™ÝXÝ\˜[Ø\Ëˆ™]™\ˆ\ÙH\˜š]˜\žHÜXÚ[™È˜[Y\Ë‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚‘\\È\XÝ[]Y›ÝYÚ
+Š›ÝËXÛÛ˜\Ý™[ÛˆÝ][™\ÊŠˆÛÛXš[™YÚ]
+ŠÛ˜[Ý\™˜XÙH^Y\š[™ÊŠ‹\ØÚ]Ú[™ÈX]žH˜Y][Û˜[›ÜÚYÝÜÈ[ˆ˜]›ÜˆÙˆHÜš\ÜÛÝÚ[™ÈYÚ][Y\Ý]XË‚‚‹H
+Š˜\ÙHØ[˜\ÎŠŠˆY\ZYšYÚ[˜]žH
+ÌŒŒNX
+H›Ü›\ÈHY\\Ý^Y\‹‚‹H
+Š”Ý\™˜XÙ\ÎŠŠˆ[]˜]YØ\™È[™[™[ÈÚ]ÛˆÌMPŒ‘Ú]ÝXH\›Ü™\œÈ[ˆ™[ÛˆÞX[ˆ
+ÌQ
+H]ÝÈÜXÚ]HÜˆ[XÝšXÈXYÙ[H
+Ñ‘ŒNX
+H›ÜˆXÝ]™HÝ]\Ë‚‹H
+Š‘ÛÝÈY™™XÝÎŠŠˆ[\˜XÝ]™HÜˆ›ØÝ\ÙY[[Y[È[Z]HÝË[ÜXÚ]KÚYK\˜Y]\È[XšY[ÛÝÈX]Ú[™ÈZ\ˆ™\ÜXÝ]™HXØÙ[ÛÛÜˆÈÚ[][]HÜÜÜˆ\Ü^\Ë‚‚ˆÈÈÚ\\Â‚•HÚ\H[™ÝXYÙH\Ù\ÈH
+Š”ÛÙ
+ŠˆÙ[ÛY]žH
+Œ\™[X˜\ÙH›Ý[™[™ÊH]Y\™Ù\È[Ù\›ˆRH\™ÛÛ›ÛZXÜÈÚ]ÝXHÙ[ÛY]šXÈÞX™\œ[šÈ™XÚ\Ú[Û‹ˆ‚‹H[\˜XÝ]™H[[Y[Ë[œ]Ë[™Ú\È™X]\™HYÚÛÛ›ÛY˜YZHÈXZ[Z[ˆHÚ\œXÚšXØ[Ú[ÝY]HÚ]Ý]™Y[[™ÈÝ™\›HÜ™Ø[šXÈÜˆX˜›K‚‹H\™Ù\ˆÛÛZ[™\œÈ[™[Ù[È][^™H›Ý[™Y[Ø
+\™[X
+HÈÛÙ[ˆÝXÝ\˜[›Ý[™\šY\ÈYØZ[œÝH\šÈØ[˜\Ë‚‚ˆÈÈÛÛ\Û™[Â‚ÛÛ\Û™[È]\ÝY\™HÝšXÝHÈH™]›ËS[Ù\›ˆ]ˆ\˜ØYH\ÚYÛˆÚÙ[œË[\\Ú^š[™ÈYÚÛÛ˜\Ý™[Ûˆ™YY˜XÚÈÛÜË[™[Û›ÜÜXÙH[[Y]žK‚‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žNŠŠˆÛÛY™[ÛˆÞX[ˆ
+ÌQ
+H˜XÚÙÜ›Ý[™Ú]\šÈZYšYÚ^ˆÛˆÝ™\‹šYÙÙ\ˆ[ˆ[[œÙH[XšY[ÞX[ˆÛÝË‚‹H
+Š”ÙXÛÛ™\žNŠŠˆ˜[œÜ\™[˜XÚÙÜ›Ý[™Ú]H\™[ÛˆÞX[ˆ›Ü™\ˆ[™ÞX[ˆ^ˆÝ™\ˆÝ]\È[™\ÈHÙ[ZK]˜[œÜ\™[ÞX[ˆØ\Ú‚‹H
+Š‘\ÝXÝ]™NŠŠˆÜš]XØ[™Y
+ÑQŒŒÌÐØ
+HÝ][™HÜˆÛÛYš[›ÜˆYÚ\š\ÚÈÜ\˜][ÛœË‚‚ˆÈÈÈÚ\È	ˆ˜YÙ\Â‹HÛÛ\XÝ[[Y[È][^š[™ÈX™[[Y\ÙÜ˜\H[œÚYH[ÜˆÛÙH›Ý[™YÛÛZ[™\œËˆ\ÙY›ÜˆÝ]\È[™XØ]ÜœÈ
+K™Ë‹•RSÔTÔØQÒÓUSÖX
+K‚‚ˆÈÈÈ\ÝÈ	ˆ[[Y]žH™YYÂ‹H[œÙH™\XØ[\ÝÈ™X]\š[™È[\›˜][™ÈÝXH›ÝÈ˜XÚÙÜ›Ý[™È
+ÌMPŒ‘[™˜[œÜ\™[
+Kˆ[Û›ÜÜXÙH›ÛÈ\™HX[™]ÜžH›Üˆ[žH[Y\šXØ[]K[Y\Ý[\ËÜˆÙÈÝ]]Ë‚‚ˆÈÈÈÚXÚØ›Þ\È	ˆ˜Y[È]ÛœÂ‹HÝ\ÝÛHÜ]X\™HÚXÚØ›Þ\ÈÚ]Ú\œœ›Ü™\œËˆÚXÚÙYÝ]\Èš[Ú]™[ÛˆÞX[ˆ[™\Ü^HHÜš\ÜÚXÚÛX\šÈXÛÛ‹ˆ˜Y[È]ÛœÈ\ÙHÛÛ˜Ù[šXÈÚ\˜Û\ÈÚ]ÛÝÚ[™ÈXÝ]™HÝ]\Ë‚‚ˆÈÈÈ[œ]šY[Â‹H\šÈÝ\™˜XÙH˜XÚÙÜ›Ý[™
+ÌMPŒ‘
+HÚ]H\™]]˜[›Ü™\‹ˆÛˆ›ØÝ\ËH›Ü™\ˆ˜[œÚ][ÛœÈ[œÝ[HÈ™[ÛˆÞX[ˆÚ]HÛÙÝ]\ˆÛÝËˆXÙZÛ\ˆ^\Ù\È]]YÜ˜^NÈXÝ]™H^\Ù\ÈÛX[ˆ›ÙH\ÙÜ˜\HÜˆ[Û›ÜÜXÙH\[™[™ÈÛˆ[œ]\K‚‚ˆÈÈÈØ\™Â‹H[]˜]YÝ\™˜XÙHÛÛZ[™\œÈ
+ÌMPŒ‘
+H™X]\š[™ÈH\ÝXH™[Ûˆ›Ü™\‹\™™XÝ›ÜˆÝ\Ú[™ÈY]šXÈÜ˜\Ë\›Z[˜[Ý]]Ë[™\˜ØYHØ[YHÛÛ›ÛË‚‚ˆÈÈÈY][Û˜[ÛÛ\Û™[Â‹H
+Š“][˜ÞHY]\œÎŠŠˆÜXÚX[^™Y›ÙÜ™\ÜÈ˜\œÈÚ]ÙYÛY[Y›ØÚÜÈ]ÚYœ›ÛHÝXØÙ\ÜÈÜ™Y[ˆÈØ\›š[™È[X™\ˆÈÜš]XØ[™Y˜\ÙYÛˆZ[\ÙXÛÛ™™\ÚÛË‚‹H
+Š•\›Z[˜[ÙÜÎŠŠˆ[X›YY\šÈÛÛœÛÛH›Þ\ÈÚ]Þ[^YÚYÚ[™È[™]]Ë\ØÜ›Û[™È[[Y]žHÝ™X[\Ë

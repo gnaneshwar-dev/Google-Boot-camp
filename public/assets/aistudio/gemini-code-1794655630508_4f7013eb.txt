@@ -1,0 +1,15 @@
+Build a complete, playable single-page browser game called "Packet Panic!" using React, TypeScript, Tailwind CSS, and HTML5 Canvas, using the attached/pasted Stitch design export for the UI, layout, typography (Google Sans + Google Sans Mono), and dark arcade color palette.
+
+Core Gameplay & Architecture Requirements:
+1. 60 FPS Game Loop: Run Pingy's movement, dash physics, packet spawning/routing, node queue capacities, and particle effects inside a mutable `useRef` + `requestAnimationFrame` loop so there is zero React re-render lag. Throttle React HUD updates (score, P99 latency, SLA uptime %, combo, credits) to ~10Hz.
+2. Protagonist (Pingy): Render Pingy on the HTML5 Canvas as a funky, expressive server-cube sprite with glowing visor shades, neon sneakers, and a coffee-cup antenna. Support WASD/Arrow Keys to move, Spacebar to dash (with cyan trail), and E or Left-Click to interact (catch overflow packets, flush cache, flip circuit breakers).
+3. 5 Progressive Distributed Systems Levels:
+   - Level 1 (The Lonely Monolith): Single server overheats; player deploys Load Balancer + 3 Stateless Workers and toggles Round Robin vs. Least Connections.
+   - Level 2 (Viral Read Storm): 90% GET traffic; player places an In-Memory Cache and manages TTL/invalidation to avoid stale reads.
+   - Level 3 (Write Bottleneck): Heavy POST writes; player adds Read Replicas or Sharding and handles replication lag.
+   - Level 4 (Domino Meltdown): Hanging red timeout packets from a downstream API; player flips a Circuit Breaker and offloads retries to an Async Message Queue.
+   - Level 5 (Split-Brain Boss): A Network Partition lightning bolt splits the cluster; player toggles between CP Mode (preserve consistency, reject minority writes) and AP Mode (stay available, merge conflicts later).
+4. Between-Wave Upgrades & Postmortem: After each 45-second wave, show the Stitch-styled Upgrade Modal to spend Compute Credits, and after a win or 503 Game Over, show the Postmortem Card with 3 accurate, level-specific distributed systems takeaways.
+5. Procedural Arcade Audio: Use the Web Audio API (no external MP3s) to synthesize crisp 8-bit sounds for 200 OK deliveries, combo arpeggios, warning klaxons at >85% node load, and 503 crashes, wired to the HUD mute toggle.
+
+Keep all code modular and clean, preserve the Stitch design's exact Google Sans styling and neon arcade tokens, and ensure the game is immediately playable on load.

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-arcade-bg: #0b0f19;
+  --color-arcade-surface: #0f131d;
+  --color-arcade-card: #141b2d;
+  --color-arcade-container: #1c1f2a;
+  --color-arcade-high: #262a35;
+  --color-arcade-highest: #313540;
+  --color-arcade-cyan: #00f5d4;
+  --color-arcade-cyan-dim: #00dfc1;
+  --color-arcade-magenta: #ff2a85;
+  --color-arcade-amber: #ffb703;
+  --color-arcade-success: #38b000;
+  --color-arcade-critical: #ef233c;
+  --color-arcade-text: #dfe2f1;
+  --color-arcade-muted: #b9cac4;
+  --color-arcade-outline: #3a4a46;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    background-color: #0b0f19;
+    color: #dfe2f1;
+    font-family: var(--font-sans);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbars for tactical event log */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e18;
+}
+::-webkit-scrollbar-thumb {
+  background: #262a35;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4a46;
+}
